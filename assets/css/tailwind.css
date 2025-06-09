@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background-color: #F8F7F3;
+}
+nav{
+    color: #A68667;
+}
+nav button{
+    background-color: #A68667;
+}
+.button{
+    color: #A68667;
+    background-color: #E4E0D1;
+}
+
+.box-one{
+    background-color: #A28569;
+}
+.box-two{
+    background-color: #EFEAE4;
+}
