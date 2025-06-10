@@ -1084,6 +1084,10 @@ nav button{
     width: 70vw;
   }
 
+  .\32xl\:w-96 {
+    width: 24rem;
+  }
+
   .\32xl\:max-w-\[550px\] {
     max-width: 550px;
   }
@@ -1172,6 +1176,16 @@ nav button{
   }
 }
 
+@media (max-width: 1680px) {
+  .xl\:w-\[60\%\] {
+    width: 60%;
+  }
+
+  .xl\:w-full {
+    width: 100%;
+  }
+}
+
 @media (max-width: 1440px) {
   .lg\:flex {
     display: flex;
@@ -1179,6 +1193,18 @@ nav button{
 
   .lg\:h-\[60vh\] {
     height: 60vh;
+  }
+
+  .lg\:w-\[60\%\] {
+    width: 60%;
+  }
+
+  .lg\:w-full {
+    width: 100%;
+  }
+
+  .lg\:w-\[80vw\] {
+    width: 80vw;
   }
 }
 
@@ -1225,6 +1251,10 @@ nav button{
     width: 80vw;
   }
 
+  .md\:w-\[60\%\] {
+    width: 60%;
+  }
+
   .md\:max-w-52 {
     max-width: 13rem;
   }
@@ -1267,6 +1297,21 @@ nav button{
     padding-right: 1.5rem;
   }
 
+  .md\:px-3 {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+  }
+
+  .md\:py-2 {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+
+  .md\:py-1 {
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+  }
+
   .md\:text-4xl {
     font-size: 2.25rem;
     line-height: 2.5rem;
@@ -1275,6 +1320,16 @@ nav button{
   .md\:text-5xl {
     font-size: 3rem;
     line-height: 1;
+  }
+
+  .md\:text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+
+  .md\:text-xs {
+    font-size: 0.75rem;
+    line-height: 1rem;
   }
 }
 
@@ -1321,6 +1376,10 @@ nav button{
 
   .sm\:w-\[80vw\] {
     width: 80vw;
+  }
+
+  .sm\:w-96 {
+    width: 24rem;
   }
 
   .sm\:max-w-52 {
@@ -1391,6 +1450,11 @@ nav button{
     line-height: 2.25rem;
   }
 
+  .sm\:text-xs {
+    font-size: 0.75rem;
+    line-height: 1rem;
+  }
+
   .sm\:leading-none {
     line-height: 1;
   }
@@ -1436,6 +1500,10 @@ nav button{
 
   .xs\:w-\[60\%\] {
     width: 60%;
+  }
+
+  .xs\:w-96 {
+    width: 24rem;
   }
 
   .xs\:max-w-52 {
